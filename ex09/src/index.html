@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
     <body>
         <header>
             <nav>
                 <ul id="nav_bar">
-                    <li class="nav-links" id="gmail"><a href="#">Gmail</a></li> 
+                    <li id="gmail" class="nav-links"><a href="#">Gmail</a></li> 
+                    <li id="images" class="nav-links"><a href="#">Images</a></li>
+                    <li id="sign_in"><a href="#">Sign In</a></li>
                 </ul>
             </nav>
         </header>
-        <div>
-
+        <div class="google-image">
+            <a id="google-logo" href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="photo google-logo.png"></a>
         </div>
-        <div>
-
+        <div class="form-search">
+            <form id="form">
+                <label for="form-search"></label>
+                <input type="text" id="form-search" placeholder="Search Google or type URL">
+            </form>
         </div>
-        <div>
-
+        <div id="buttons" class="buttons">
+            <button type="submit" id="google-search">Google Search</button>
+            <button type="submit" id="im_feeling_lucky">I'm Feeling Lucky</button>
         </div>
         <footer>
-
+            <ul id="footer-left" class="footer-left">
+                <a id="Advertising" href="#">Advertising</a>
+                <a id="Business" href="#">Business</a>
+                <a id="About" href="#">About</a>
+            </ul>
+            <ul class="footer-right">
+                <a id="Privacy" href="#">Privacy</a>
+                <a id="Terms" href="#">Terms</a>
+                <a id="Settings" href="#">Settings</a>
+            </ul>
         </footer>
     </body>
 </html>
